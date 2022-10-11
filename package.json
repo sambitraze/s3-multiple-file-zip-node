@@ -1,0 +1,26 @@
+{
+  "name": "s3-multiple-file-zip-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambitraze/s3-multiple-file-zip-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambitraze/s3-multiple-file-zip-node/issues"
+  },
+  "homepage": "https://github.com/sambitraze/s3-multiple-file-zip-node#readme",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "aws-sdk": "^2.1231.0",
+    "request": "^2.88.2",
+    "stream": "^0.0.2"
+  }
+}
